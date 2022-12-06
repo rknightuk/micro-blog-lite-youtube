@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "1.0",
   "title": "lite-youtube for Micro.blog",
   "description": "Appends YouTube embeds with lite-youtube to any post which contains a YouTube link",
   "includes": [
