@@ -1,6 +1,9 @@
+{{ $post_class := $.Site.Params.post_class }}
+{{ $post_append_class := $.Site.Params.post_append_class }}
+
  <script>
     document.addEventListener('DOMContentLoaded', (event) => {
-      const posts = [...document.getElementsByClassName('post-content')].forEach(p => {
+      const posts = [...document.getElementsByClassName({{ or $post_class "post-content" }})].forEach(p => {
           const links = [...p.getElementsByTagName('a')]
 
           links.forEach(l => {
@@ -10,7 +13,7 @@
               // https://gist.github.com/jphase/9086823
               const matches = l.href.match(/(http:|https:)?(\/\/)?(www\.)?(youtube.com|youtu.be)\/(watch|embed)?(\?v=|\/)?(\S+)?/)
               const ytId = matches ? matches[7] : null
-              const article = l.closest('.post-content')
+              const article = l.closest('.{{ or $post_append_class "post-content" }}')
               if (ytId && article) {
                   const video = document.createElement('lite-youtube')
                   video.setAttribute('videoid', ytId)
