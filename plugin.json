@@ -1,20 +1,17 @@
 {
-	"version": 0.1,
-	"title": "lite-youtube for Micro.blog",
-	"description": "Appends YouTube embeds with lite-youtube to any post which contains a YouTube link",
-	"includes": [
-		"lite-youtube.html",
-	],
-	"fields": [
-		{
-			"field": "params.post_class",
-			"label": "Post class",
-			"placeholder": "Enter the class name of your post container"
-		},
-		{
-			"field": "params.post_append_class",
-			"label": "Post append class",
-			"placeholder": "Enter the class name of the element to append videos to"
-		}
-	]
+  "version": "0.1",
+  "title": "lite-youtube for Micro.blog",
+  "description": "Appends YouTube embeds with lite-youtube to any post which contains a YouTube link",
+  "fields": [
+    {
+		"field": "params.post_class",
+		"label": "Post class",
+		"placeholder": "Enter the class name of your post container"
+	},
+	{
+		"field": "params.post_append_class",
+		"label": "Post append class",
+		"placeholder": "Enter the class name of the element to append videos to"
+	}
+  ]
 }
