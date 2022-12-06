@@ -14,7 +14,7 @@ This plugin appends a [lite-youtube](https://github.com/paulirish/lite-youtube-e
 
 ## Installation
 
-1. Find [Lite YouTube for Micro.blog (TODO ADD LINK HERE)]() in the plug-in directory
+1. Find [Lite YouTube for Micro.blog](https://micro.blog/account/plugins/view/83) in the plug-in directory
 2. Install to the site you want to install to and press install
 3. Ta-da! It's installed
 
