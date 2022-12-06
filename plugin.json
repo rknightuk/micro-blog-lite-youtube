@@ -3,7 +3,7 @@
   "title": "lite-youtube for Micro.blog",
   "description": "Appends YouTube embeds with lite-youtube to any post which contains a YouTube link",
   "includes": [
-  	"layouts/partials/lite-youtube.html"
+  	"lite-youtube.html",
   ],
   "fields": [
     {
